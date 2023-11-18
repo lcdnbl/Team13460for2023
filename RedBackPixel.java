@@ -189,6 +189,8 @@ public class BlueBackPixel extends LinearOpMode
       groundTransitionFlipper(400);  // get arm in position to clear axle
       armraise(-30.6, 0.221);      // lower arm back to ground to prevent slamming between programs
                                   // ...leave up ~15 deg from driving to park pos
+      drive(0, -26, 0, DRIVE_POWER); // Drive left to get to wall
+      drive(-5, 0, 0, DRIVE_POWER); // Pull back over/behind line
                                   
       // TODO: PARK IN LEFT CORNER, get out of way of alliance partner
                                   
